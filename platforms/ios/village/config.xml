@@ -52,6 +52,11 @@
         <param name="onload" value="true" />
     </feature>
     <name>village</name>
+    <feature name="SocialSharing">
+        <param name="ios-package" value="SocialSharing" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>甜园生活</name>
     <description>
         小区业务管理平台
     </description>
@@ -88,8 +93,8 @@
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
     <preference name="CameraUsesGeolocation" value="false" />
-    <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="SplashScreenDelay" value="7000" />
     <preference name="orientation" value="portrait" />
     <preference name="StatusBarBackgroundColor" value="#f0cd10" />
