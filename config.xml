@@ -1,0 +1,72 @@
+<!--
+@Author: jeffrey
+@Date:   2016-05-13T00:27:01+08:00
+@Last modified by:   jeffrey
+@Last modified time: 2016-05-14T09:25:37+08:00
+-->
+
+
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.dssmp.village" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>甜园生活</name>
+    <description>
+        小区业务管理平台
+    </description>
+    <author email="x010@foxmail.com" href="http://www.ms9d.com">
+        Jeff.wu
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <icon src="res/icon/icon.png" />
+      <platform name="android">
+          <allow-intent href="market:*" />
+          <icon src="res/icon/icon.png" density="land-hdpi" />
+          <icon src="res/icon/icon.png" density="land-mdpi" />
+          <icon src="res/icon/icon.png" density="land-hdpi" />
+          <icon src="res/icon/icon.png" density="land-xhdpi" />
+
+          <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
+          <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
+          <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>
+          <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi"/>
+          <splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi"/>
+          <splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi"/>
+          <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi"/>
+          <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi"/>
+
+          <preference name="AndroidPersistentFileLocation" value="Internal" />
+          <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+      </platform>
+
+      <platform name="ios">
+          <allow-intent href="itms:*" />
+          <allow-intent href="itms-apps:*" />
+          <splash src="res/screen/ios/Default~iphone.png" width="320" height="480"/>
+          <splash src="res/screen/ios/Default@2x~iphone.png" width="640" height="960"/>
+          <splash src="res/screen/ios/Default-568h@2x~iphone.png" width="640" height="1136"/>
+          <splash src="res/screen/ios/Default-667h.png" width="750" height="1334"/>
+          <splash src="res/screen/ios/Default-736h.png" width="1242" height="2208"/>
+
+          <preference name="iosPersistentFileLocation" value="Library" />
+          <preference name="iosPersistentFileLocation" value="Compatibility" />
+      </platform>
+
+      <!-- 启动动画 -->
+      <preference name="SplashScreenDelay" value="7000" />
+      <!-- 禁些横屏 -->
+      <preference name="orientation" value="portrait"/>
+      <!-- StatusBar -->
+      <preference name="StatusBarOverlaysWebView" value="false" />
+      <preference name="StatusBarBackgroundColor" value="#f0cd10" />
+      <!-- 启动时加载URL的超时时间 -->
+      <preference name="load-url-timeout" value="60000" />
+</widget>
